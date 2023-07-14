@@ -1,5 +1,7 @@
 # El Excel
 
+<img style="margin: 0 auto 32px; width: 160px; display: block" src="./src/public/logo.svg" />
+
 A simple `excel-like` personal finance app.
 
 
@@ -16,16 +18,15 @@ A simple `excel-like` personal finance app.
 # TODOs
 
 - [ ] Setup dependencies
-  - [ ] Aliases
-  - [ ] `.editorconfig`bye
-  - [ ] `eslint`
+  - [x] `.editorconfig`
+  - [x] `eslint`
   - [ ] `pinia` store
-  - [ ] `windicss` || `unocss`
-  - [ ] Icon set
-- [ ] Create base routes
-- [ ] Create base layout
-- [ ] Create `sidemenu` component
-- [ ] Create `toolbar` component
+  - [x] `Nuxt UI`
+  - [x] Icon set
+- [x] SEO tags
+- [x] Create base routes
+- [x] Create base layout
+- [ ] Create `Header/Toolbar` component
 - [ ] Create `AccountCard` component
   - [ ] Name, icon, color
 - [ ] Create `RecordList` component
@@ -35,9 +36,15 @@ A simple `excel-like` personal finance app.
 - [ ] `Dark Mode` Feature
 - [ ] `PWA` Feature
 - [ ] `Exchanges` Feature
-- [ ] Easy record calc [`eval()`]
+- [ ] Easy/safe record live calculations [`eval()`]
 
 ## Tools
 - [ ] Tooltip [`tippy`]
 - [ ] Date Picker []
 - [ ] Searching tool [`fuse`]
+- [ ] Dates lib [`date-fn`]
+
+##
+```ts
+import colors from '#tailwind-config/theme/colors'
+```

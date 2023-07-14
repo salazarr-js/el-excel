@@ -6,11 +6,17 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxthq/ui": "^2.5.0",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@types/node": "^18.16.19",
-    "nuxt": "^3.6.2"
+    "eslint": "^8.45.0",
+    "nuxt": "^3.6.2",
+    "sass": "^1.63.6"
   }
 }
