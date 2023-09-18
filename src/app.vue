@@ -1,8 +1,8 @@
 <template>
-  <div class="min-h-screen flex flex-col">
-    <Header />
+  <div class="app-container">
+    <AppHeader />
 
-    <main class="relative flex-1 px-4 md:px-8 py-4">
+    <main class="app-content">
       <NuxtPage />
     </main>
   </div>
@@ -20,7 +20,7 @@ useHead({
     { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }
   ],
   bodyAttrs: {
-    class: 'antialiased font-sans text-gray-700 dark:text-gray-200 bg-gray-100 dark:bg-gray-900'
+    class: 'antialiased font-sans text-gray-700 dark:text-gray-200 bg-gray-200 dark:bg-gray-900'
   }
 })
 
@@ -35,4 +35,17 @@ useSeoMeta({
 })
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.app-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.app-content {
+  flex: 1;
+  position: relative;
+}
+</style>

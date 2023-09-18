@@ -29,6 +29,8 @@ A simple `excel-like` personal finance app.
 - [ ] Create `Header/Toolbar` component
 - [ ] Create `AccountCard` component
   - [ ] Name, icon, color
+  - [ ] Settings: Size [small, normal, wide]
+  - [ ] Mobile: Scroll snap center, 90% card size
 - [ ] Create `RecordList` component
 - [ ] Create `color` picker component
 - [ ] Create `icon` picker component
